@@ -1,0 +1,98 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;c++;cppm;ixx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="Header Files">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;h++;hm;inl;inc;ipp;xsd</Extensions>
+    </Filter>
+    <Filter Include="Resource Files">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <Text Include="..\data\inA_140x100.txt">
+      <Filter>Resource Files</Filter>
+    </Text>
+    <Text Include="..\data\inA_500x500.txt">
+      <Filter>Resource Files</Filter>
+    </Text>
+    <Text Include="..\data\inA_1000x1000.txt">
+      <Filter>Resource Files</Filter>
+    </Text>
+    <Text Include="..\data\inA_6000x4000.txt">
+      <Filter>Resource Files</Filter>
+    </Text>
+    <Text Include="..\data\inA_10000x10000.txt">
+      <Filter>Resource Files</Filter>
+    </Text>
+    <Text Include="..\data\inB_100x200.txt">
+      <Filter>Resource Files</Filter>
+    </Text>
+    <Text Include="..\data\inB_500x500.txt">
+      <Filter>Resource Files</Filter>
+    </Text>
+    <Text Include="..\data\inB_1000x1000.txt">
+      <Filter>Resource Files</Filter>
+    </Text>
+    <Text Include="..\data\inB_4000x6000.txt">
+      <Filter>Resource Files</Filter>
+    </Text>
+    <Text Include="..\data\inB_10000x10000.txt">
+      <Filter>Resource Files</Filter>
+    </Text>
+    <Text Include="..\data\inA_2048x2048.txt">
+      <Filter>Resource Files</Filter>
+    </Text>
+    <Text Include="..\data\inB_2048x2048.txt">
+      <Filter>Resource Files</Filter>
+    </Text>
+    <Text Include="..\data\resultTaskGroup.txt">
+      <Filter>Resource Files</Filter>
+    </Text>
+    <Text Include="..\data\inA_16x16.txt">
+      <Filter>Resource Files</Filter>
+    </Text>
+    <Text Include="..\data\inA_64x64.txt">
+      <Filter>Resource Files</Filter>
+    </Text>
+    <Text Include="..\data\inB_16x16.txt">
+      <Filter>Resource Files</Filter>
+    </Text>
+    <Text Include="..\data\inB_64x64.txt">
+      <Filter>Resource Files</Filter>
+    </Text>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="..\ParallelFor\utils.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\ParallelFor\exceptions.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\ParallelFor\Matrix.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="matrixTaskGroup.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="..\ParallelFor\Matrix.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\ParallelFor\utils.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="matrixTaskGroup.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="main.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+  </ItemGroup>
+</Project>
